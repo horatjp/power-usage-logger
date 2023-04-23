@@ -91,3 +91,8 @@ crontab -e
 ```
 */10 * * * * ps ax | grep -v grep | grep -q power_usage_logger.py || cd [プロジェクトのパス] && src/power_usage_logger.py &
 ```
+
+## その他
+
+Zabbixによる電力使用量のモニタリング「RL7023 Stick-D/IPS」 – Debian Linuxによる自宅サーバ
+https://blog.horat.jp/a/479
